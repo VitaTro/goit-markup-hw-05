@@ -59,9 +59,9 @@ height: 200rem;
             <section class="item section section-first background-image">
                 <div class="container ">
                 <h1 class="headline-main">Effective Solutions for Your Business</h1>
-                <button type="button" class="button headline-main-button">Order Service</button>
+                <button type="button" class="button headline-main-button" data-modal-open>Order Service</button>
                 </div>
-            </div>
+           
             </section>
 
             <section class="section">
@@ -386,13 +386,15 @@ height: 200rem;
             </div>
         </div>
         </footer>
-        <div class="modal-windows modal is-hidden" data-modal>
+        <div class=" modal is-hidden" data-modal>
             <button type="button" class="button headline-main-button" data-modal-open>Order Service</button>
             <svg class="modal-svg" width="8" height="8">
                 <use href="./images/icons.svg#icon-close"></use>
             </svg>
+            <div class="modal-windows">
             <button class="modal-windows-close" data-modal-close>X</button>
         </div>
+    </div>
         <script src="./js/modal.js"></script>
 </body>
 
