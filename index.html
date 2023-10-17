@@ -40,8 +40,8 @@ height: 200rem;
         <nav class="link list container-nav">
             <a href="./index.html" class="web-studio link logo">Web<span class="studio">Studio</span></a>
             <ul class="list container-menu">
-                <li><a class="header-nav link container-menu-link" href="./index.html">Studio</a>
-                    <svg class="hover" width="48" height="4"> </svg>
+                <li><a class="header-nav link container-menu-link-active" href="./index.html">Studio</a>
+                   
                 </li>
                 <li><a class="header-nav link container-menu-link"  href="./portfolio.html">Portfolio</a> </li>
                 <li><a class="header-nav link container-menu-link" href="">Contacts</a> </li>
@@ -59,10 +59,7 @@ height: 200rem;
             <section class="item section section-first background-image">
                 <div class="container ">
                 <h1 class="headline-main">Effective Solutions for Your Business</h1>
-               <button type="button" class="button headline-main-button" data-modal-open>Order Service</button>
-               <div class="backdrop is-hidden modal" data-modal>
-                  <button class="close-btn" data-modal-close >X</button>
-               </div>
+                <button type="button" class="button headline-main-button">Order Service</button>
             </div>
             </section>
 
@@ -388,8 +385,13 @@ height: 200rem;
             </div>
         </div>
         </footer>
+        
+        <button data-modal-open>OPEN</button>
+        <div class="modal is-hidden" data-modal>
+           <button data-modal-close>X</button>
+        </div>
 
-        <script src="./js/modal.ls"></script>
+        <script src="./js/modal.js"></script>
 </body>
 
 </html>
