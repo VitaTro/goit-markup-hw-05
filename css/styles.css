@@ -378,18 +378,19 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
 }
 .modal-svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);    
+color:var(--navy-blue-color);
 }
 .modal-svg:hover {
-fill: #ffffff;
+fill:var(--white-color);
 }
 .modal-svg:focus {
-    fill: #ffffff;
+    fill:var(--white-color);
 }
 .modal-windows {
     position: absolute;
     top:50%;
     left:50%;
-    transform: translate(-50%, -50%) scale(1);
+    
     width: 408px;
     min-height: 584px;
     background:var(--dairy-color);
@@ -415,6 +416,7 @@ fill: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
+    color:var(--navy-blue-color);
     background-color:var(--cornflower-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0; 
@@ -425,7 +427,10 @@ fill: #ffffff;
     border: none;
     background-color:var(--moderate-blue-color);
 }
-
+.modal-windows-close:focus {
+    border: none;
+    background-color:var(--moderate-blue-color);
+}
     .page-header {
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
         0px 1px 1px rgba(46, 47, 66, 0.16), 
