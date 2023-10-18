@@ -203,7 +203,7 @@ flex-shrink: 0;
         display: flex;
         gap: 40px;
     }
-    .container-menu-link {
+    a.container-menu-link {
         position: relative;
         color:var(--moderate-blue-color);
     }
@@ -211,12 +211,13 @@ flex-shrink: 0;
     position: absolute;
     content:'';
     left: 0;
-    bottom: -1px;
-    height: 4px;
+    bottom: -28px;
     background-color: var(--moderate-blue-color);
     border-radius: 2px;
-    width: 100%;
-   
+    border-bottom: 4px solid var(--moderate-blue-color);
+ 
+  width: 100%;
+  display: block;
 }
     
     .container-nav {
