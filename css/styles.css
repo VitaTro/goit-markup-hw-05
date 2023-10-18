@@ -361,7 +361,7 @@ height: 100%;
 opacity:1;
 visibility: hidden;
 pointer-events: none;
-transform: translate(-50%, -50%) scale(1);
+
 border-radius: 0.25rem;
 background-color: rgba(46, 47, 66, 0.4);
 background: var(--dairy-color, #FCFCFC);
@@ -384,7 +384,7 @@ fill:var(--white-color);
     position: absolute;
     top:50%;
     left:50%;
-    
+    transform: translate(-50%, -50%) scale(1);
     width: 408px;
     min-height: 584px;
     background:var(--dairy-color);
