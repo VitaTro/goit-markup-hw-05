@@ -63,16 +63,7 @@ img {
   }
   
 
-  .backdrop {
-    position: fixed;
-    left: 0;
-    top:0;
-    width: 100%;
-    height: 100%;
-    opacity:1;
-    visibility: hidden;
-    pointer-events: none;
-  }
+  
 .background-image {
     width: 90rem;
     height: 37.5rem;
@@ -367,7 +358,10 @@ color: var(--white-color);
     transform: translate(-50%, -50%);
     width: 100%;
 height: 100%;
-
+opacity:1;
+visibility: hidden;
+pointer-events: none;
+transform: translate(-50%, -50%) scale(1);
 border-radius: 0.25rem;
 background-color: rgba(46, 47, 66, 0.4);
 background: var(--dairy-color, #FCFCFC);
