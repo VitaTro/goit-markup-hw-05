@@ -206,12 +206,15 @@ flex-shrink: 0;
     a.container-menu-link {
         position: relative;
         color:var(--moderate-blue-color);
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 .container-menu-link::after {
     position: absolute;
     content:'';
     left: 0;
-    bottom: -28px;
+  
+    bottom: -1px;
     background-color: var(--moderate-blue-color);
     border-radius: 2px;
     border-bottom: 4px solid var(--moderate-blue-color);
