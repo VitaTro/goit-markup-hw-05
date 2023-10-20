@@ -179,10 +179,10 @@ stroke: rgba(0, 0, 0, 0.10);
     .container-animation {
       position: relative;
       overflow: hidden;
-      
-
     }
-.container-animation:hover .container-animation-p,
+.container-animation:hover .container-animation-p{
+    transform: translateY(0%);
+}
 .container-animation:focus .container-animation-p {
     transform: translateY(0%);
 }
