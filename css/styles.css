@@ -24,6 +24,7 @@ img {
       --dairy-color:var(--DAIRY,#FCFCFC);
   --grey-color:var(--GREY, #2E2F42B2);
     } 
+
   h1,
   h2,
   h3,
@@ -374,7 +375,7 @@ inset: 0 0 auto;
 }
 .modal-svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+    fill: var(--navy-blue-color);
     
 }
 .modal-svg:hover {
@@ -390,7 +391,7 @@ fill:var(--white-color);
     transform: translate(-50%, -50%) scale(1);
     width: 408px;
     min-height: 584px;
-    background:var(--dairy-color);
+    background: var(--dairy-color);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 
     0px 1px 3px rgba(0, 0, 0, 0.12), 
     0px 2px 1px rgba(0, 0, 0, 0.2); 
@@ -418,8 +419,9 @@ fill:var(--white-color);
     display: flex;
     align-items: center;
     justify-content: center;
-    color:var(--navy-blue-color);
-    background-color:var(--cornflower-color);
+    color: var(--navy-blue-color);
+    fill: var(--navy-blue-color);
+    background-color: var(--cornflower-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0; 
     cursor: pointer; 
@@ -574,7 +576,7 @@ flex-shrink: 0;
     .section-third-list {
         width: calc((100% - 48px) / 3);
         border: 1px solid var(--cornflower-color);
-background: url(./images/img1.jpg, ./images/img2.jpg,./images/img3.jpg), 
+background: url(./images/img1.jpg,./images/img2.jpg,./images/img3.jpg), 
 lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
     }
     .section-three {
