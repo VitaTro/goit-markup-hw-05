@@ -215,7 +215,6 @@ flex-shrink: 0;
     background-color: var(--moderate-blue-color);
     border-radius: 2px;
     border-bottom: 4px solid var(--moderate-blue-color);
- 
   width: 100%;
   display: block;
 }
@@ -305,7 +304,6 @@ flex-shrink: 0;
 
 .footer {
     background: var(--navy-blue-color);
-
 flex-shrink: 0;
 }
 .footer-studio {
@@ -316,7 +314,6 @@ flex-shrink: 0;
 .general-container-footer {
     display: flex;
     align-items: baseline;
-   
 }
 
 .icons {
