@@ -419,12 +419,12 @@ fill:var(--white-color);
 .modal-windows-close:hover {
     background-color:var(--moderate-blue-color);
     border: none;
-    fill:var(--white-color);
+    fill:#ffffff;
 }
 .modal-windows-close:focus {
     background-color:var(--moderate-blue-color);
     border: none;
-    fill:var(--white-color);
+    fill: #ffffff;
 }
    
 
