@@ -444,7 +444,7 @@ flex-shrink: 0;
     .page-footer {  
         padding: 100px 0;
     }
-  
+
     .portfolio-button:hover {
         background: var(--iris-color);
         color: var(--white-color);
